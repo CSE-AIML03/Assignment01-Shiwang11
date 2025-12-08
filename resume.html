@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — College Student</title>
+  <style>
+    :root{--accent:#0b5cff;--muted:#6b7280;--bg:#f3f4f6;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Arial, Helvetica, sans-serif;background:var(--bg);margin:0;padding:28px;color:#0b1530}
+    .container{max-width:800px;margin:0 auto}
+    .card{background:var(--card);padding:24px;border-radius:8px;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
+    header{display:flex;align-items:center;gap:16px}
+    .name{font-size:22px;font-weight:700;margin:0}
+    .label{color:var(--muted);margin-top:6px}
+    .contact{margin-left:auto;text-align:right;font-size:14px;color:var(--muted)}
+    .section{margin-top:18px}
+    h2{font-size:16px;margin:0 0 10px 0;color:var(--accent);border-left:4px solid var(--accent);padding-left:10px}
+    .edu-item, .job-item, .proj-item{margin-bottom:10px}
+    .muted{color:var(--muted);font-size:14px}
+    ul{margin:8px 0 0 18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2ff;padding:6px 8px;border-radius:6px;font-size:13px}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:640px){header{flex-direction:column;align-items:flex-start}.contact{text-align:left;margin-left:0}}
+    @media print{body{background:#fff;padding:0}.card{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div>
+          <h1 class="name">Shiwang Tomar</h1>
+          <div class="label">B.Tech in Computer Science (AIML) — Class of 2025</div>
+        </div>
+        <div class="contact">
+          <div>Email: shiwangb15310086@abes.ac.in</div>
+          <div>Phone: +91 9012177898</div>
+          <div>Location: binauli baghpat</div>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>Objective</h2>
+        <p class="muted">Motivated computer science student seeking internship or entry-level role in software development. Interested in web development, data structures, and algorithms. Looking to apply classroom knowledge to real-world projects and grow as part of a collaborative team.</p>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <div class="edu-item">
+          <strong>ABES Institute of Technology</strong> — B.Tech, Computer Science<br>
+          <span class="muted">2025 — 2029 (expected) • Current CGPA: N/A / 10</span>
+        </div>
+        <div class="edu-item">
+          <strong>Alpine Public School</strong> — High School (Science)<br>
+          <span class="muted">2022 — 2023 • Percentage: 87.2%</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Relevant Coursework</h2>
+        <p class="muted">Data Structures & Algorithms, Database Management Systems, Operating Systems, Web Development, Object Oriented Programming, Computer Networks</p>
+      </section>
+
+      <section class="section">
+        <h2>Projects</h2>
+        <div class="proj-item">
+          <strong>College Portal (Web App)</strong> — <span class="muted">HTML, CSS, JavaScript, Firebase</span>
+          <ul>
+            <li>Built a portal for students to view timetables and submit assignments.</li>
+            <li>Implemented authentication and real-time updates using Firebase.</li>
+          </ul>
+        </div>
+
+        <div class="proj-item">
+          <strong>Library Management System</strong> — <span class="muted">Java, MySQL</span>
+          <ul>
+            <li>Desktop application to manage book issuances and returns with an admin panel.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Internships / Experience</h2>
+        <div class="job-item">
+          <strong>Summer Intern — Example Company</strong> <span class="muted">May 2024 — Jul 2024</span>
+          <ul>
+            <li>Worked on front-end components and fixed bugs in an internal dashboard using React.</li>
+            <li>Wrote unit tests and improved component reuse.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span class="skill">C / C++</span>
+          <span class="skill">Java</span>
+          <span class="skill">Python</span>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Git</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Extracurricular Activities</h2>
+        <ul class="muted">
+          <li>Member of Coding Club — participated in hackathons and coding contests.</li>
+          <li>Volunteer tutor for first-year students in programming basics.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Achievements</h2>
+        <ul class="muted">
+          <li>1st prize in college coding challenge (2023)</li>
+          <li>Secured top 5% in [Some national-level exam / contest]</li>
+        </ul>
+      </section>
+
+      <footer>
+        <div style="text-align:center;color:var(--muted);font-size:13px;margin-top:14px">References available on request • Last updated: Nov 2025</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
